@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+// PROJECT NAME : Dual Port RAM
+// FILE_NAME    : define.sv 
+// AUTHOR       : Bhadresh.v
+// MODULE NAME  : Enviroment
+// DSCRIPTION   : Define parameter and enum
+// 
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+`ifndef RAM_DEF_SV
+`define RAM_DEF_SV
+
+//Parameters
+parameter CYCLE=10;
+typedef enum bit [1:0] {IDLE, READ, WRITE, SIM} trans_kind;
+`endif
